@@ -49,6 +49,22 @@ a:hover {
     }
 
 
+    /* botão subir para cima da pagina */
+    #sobe{
+        position:fixed;
+        bottom:0px;
+        right:0px;
+        font-size: 3em; 
+        color: #ffbb00;
+        margin-right: 2%;
+    }
+
+
+
+
+
+
+
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
