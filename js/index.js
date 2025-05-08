@@ -13,11 +13,11 @@ window.addEventListener('scroll', function() {
 
 
 //Rolagem suave
-document.querySelector('botao_inicio').addEventListener('click', function(e) {
+document.querySelector('.botao_inicio').addEventListener('click', function(e) {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 
-// Modal
+
 
