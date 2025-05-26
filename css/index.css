@@ -179,7 +179,7 @@ border-radius: 5%;
   }
   .logo_apresentacao img:hover {
     transition: 0.5s;
-    background-color: white;
+    background-color: #666;
     opacity: 0.9;
 
   }
@@ -192,7 +192,25 @@ border-radius: 5%;
     gap: 2vw;
     
   }
+
+  .logo_item{
+    position:relative;
+    text-align: center;
+  }
     
+  .logo_item span {
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 1em;
+}
+
+.logo_item:hover span {
+    display: block;
+}
   
   /* sobre */
   .sobre {
