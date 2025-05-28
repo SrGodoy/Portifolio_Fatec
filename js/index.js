@@ -19,5 +19,20 @@ document.querySelector('.botao_inicio').addEventListener('click', function(e) {
 });
 
 
+//email
 
+document.getElementById('botaoCopiarEmail').addEventListener('click', function() {
+  const email = 'luccas.miazzo@fatec.sp.gov.br'; 
+  navigator.clipboard.writeText(email);
+  
+  
+ 
+  const mensagem = this.querySelector('.mensagem_copiado');
+  mensagem.style.display = 'block';
+  
+
+  setTimeout(() => {
+    mensagem.style.display = 'none';
+  }, 2000);
+});
 
