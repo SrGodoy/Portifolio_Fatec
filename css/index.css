@@ -345,10 +345,13 @@ border-radius: 5%;
 }
 
 .card_projeto img {
-    width: 30vh;
+    width: 250px;
+    height: 200px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
+
 
 .card_projeto h3 {
     margin: 10px 0;

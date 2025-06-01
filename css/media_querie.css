@@ -38,3 +38,10 @@
         left: 0;
     }
 }
+
+/* modal imagens */
+@media (min-width: 768px) {
+    .modal_imagem {
+        max-width: 45%;
+    }
+}
