@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
     links: [
         {
             texto: "Repositório",
-            url: "https://github.com/seuuser/todo",
+            url: "https://github.com/SrGodoy/Servi-o_Cliente_Javao",
             classe: "github"
         }
     ]
