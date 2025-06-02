@@ -1,33 +1,30 @@
-@media (max-width: 985px) {
-    .logo {
-        font-size: 1.3em;
-        padding-left: 50px;
-    }
-    nav ul li a {
-        font-size: 16px;
-    }
-}
 
-@media (max-width: 985px) {
-    .checkbtn {
-        display: block;
-    }
+@media (max-width: 768px) {
+  
+ nav {
+    display:grid;
+    grid-column: auto 1fr auto;
+    padding: 10px;
+    margin: 0;
+    height: 50px;
+ }
+
     ul {
         position: fixed;
         width: 100%;
         height: auto;
         top: 80px;
-        left: -100%;
+        left: 100%;
         transition: all 0.5s;
         text-align: center;
         background-color: #000000;
     }
-    nav ul li {
+   ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a {
+    ul li a {
         font-size: 20px;
     }
     a:hover {
@@ -37,6 +34,73 @@
     #check:checked ~ ul {
         left: 0;
     }
+
+#code_foto{
+    padding-top: 12px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.logo{
+    order: 1;
+    height: 40px;
+    width: 40px;
+}
+
+  .checkbtn {
+        display: block;
+        height: 50px;
+        order:2;
+        align-self: flex-end;
+    }
+
+/* apresentacao */
+.apresentacao{
+   flex-direction: column-reverse; 
+        text-align: center; 
+ height: auto;
+
+    }
+  #conteudo_apresentacao{
+
+    height: auto;
+  }
+#minha_foto{
+  height: 300px;
+    width:auto;
+    align-self: center;
+}
+ 
+  
+
+
+.logo_apresentacao {
+    display: flex;
+    align-self: center;
+    align-items: center;
+     justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+  .logo_item span {
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 1em;
+}
+
+ .logo_apresentacao img {
+    width: 4vw;
+    border: 2px solid red;
+    padding: 10px;
+    gap: 2vw;
+    
+  }
+
 }
 
 /* modal imagens */

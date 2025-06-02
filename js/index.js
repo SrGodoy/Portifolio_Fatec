@@ -25,7 +25,6 @@ document.getElementById('botaoCopiarEmail').addEventListener('click', function()
   const email = 'luccas.miazzo@fatec.sp.gov.br'; 
   navigator.clipboard.writeText(email);
   
-  
  
   const mensagem = this.querySelector('.mensagem_copiado');
   mensagem.style.display = 'block';
