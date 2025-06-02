@@ -3,20 +3,24 @@
   
  nav {
     display:grid;
-    grid-column: auto 1fr auto;
+    align-items: center;
     padding: 10px;
-    margin: 0;
-    height: 50px;
+  
+    height: auto;
  }
 
     ul {
         position: fixed;
-        width: 100%;
+        top: 60px;
         height: auto;
-        top: 80px;
+        width: 100%;
         left: 100%;
         transition: all 0.5s;
+        margin: 0;
+        padding: 20px 0;
+        list-style: none;
         text-align: center;
+        z-index: 1000;
         background-color: #000000;
     }
    ul li {
@@ -25,7 +29,7 @@
         line-height: 30px;
     }
     ul li a {
-        font-size: 20px;
+        font-size: 1.2em;
     }
     a:hover {
         background: none;
@@ -36,35 +40,43 @@
     }
 
 #code_foto{
-    padding-top: 12px;
+    height: 40px;
+    width: 120px;
+    padding-top: 10px;
     padding-left: 10px;
+    padding-right: 0;
     height: 30px;
 }
 
 .logo{
-    order: 1;
+    padding: 0;
+    margin: 0;
+    grid-row: 1;
     height: 40px;
-    width: 40px;
+    width: 100px;
+    align-self: center;
 }
 
   .checkbtn {
+    grid-column: 3;
         display: block;
         height: 50px;
-        order:2;
-        align-self: flex-end;
-    }
+        z-index: 1001;
+    } 
+
+
 
 /* apresentacao */
-.apresentacao{
-   flex-direction: column-reverse; 
-        text-align: center; 
- height: auto;
-
+.apresentacao {
+    flex-direction: column-reverse;
+    text-align: center;
+    height: auto;
     }
-  #conteudo_apresentacao{
+ #conteudo_apresentacao {
 
     height: auto;
-  }
+}
+
 #minha_foto{
   height: 300px;
     width:auto;
@@ -102,6 +114,29 @@
   }
 
 }
+
+.sobre{
+    align-self: center;
+    max-width: 64vw;
+    max-height: 600px;
+    padding-top: 20px;
+   
+}
+
+.conteudo_sobre{
+    height: max-content;
+    width: 100%;
+}
+.conteudo_sobre p {
+  font-size: 1.3em;
+ 
+}
+
+.sobre h2 {
+    color: red;
+    font-size: 1.8em;
+    margin-bottom: 2vh;
+  }
 
 /* modal imagens */
 @media (min-width: 768px) {

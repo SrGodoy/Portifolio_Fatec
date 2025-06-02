@@ -14,7 +14,7 @@
 
   nav {
     background: #000000;
-    height: 100px;
+    height: 65px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -246,14 +246,14 @@ max-height: auto;
     margin-bottom: 2vh;
   }
   
-  .conteudo-sobre {
+  .conteudo_sobre {
     display: flex;
     gap: 40px;
     align-items: center;
     text-align: left;
   }
   
-.conteudo-sobre p {
+.conteudo_sobre p {
   font-size: 1.5em;
   text-align: justify;
 }
