@@ -241,7 +241,7 @@ max-height: auto;
   }
   
   .sobre h2 {
-    color: red;
+    color: #f20505;
     font-size: 2.2em;
     margin-bottom: 2vh;
   }
@@ -267,7 +267,7 @@ max-height: auto;
   }
   
   .habilidades h2 {
-    color: red;
+    color: #f20505;
     font-size: 2.2em;
     margin-bottom: 60px;
   }
@@ -285,7 +285,7 @@ max-height: auto;
   margin-top: 1vh;
   width: auto;
   height: 10vh;
-  background: #f8f9fa;
+  background: #ecebeb;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -330,7 +330,7 @@ max-height: auto;
   }
  
   .projeto h2 {
-    color: red;
+    color: #f20505;
     font-size: 1.5em;
     margin-bottom: 60px;
   }
@@ -344,7 +344,7 @@ max-height: auto;
   }
   
  .card_projeto {
-    background: #fff;
+    background: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -355,7 +355,7 @@ max-height: auto;
 }
 
 .card_projeto:hover {
-      border-color: #ff4757;
+      border-color: #f20505;
     box-shadow: 0 0 15px rgba(255, 71, 87, 0.3); /* sombra da borda */
 }
 
