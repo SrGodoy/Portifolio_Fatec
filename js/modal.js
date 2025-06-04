@@ -133,9 +133,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p><strong>${projeto.descricao}</strong></p>
                 <div class="modal_galeria">
                     ${projeto.imagens.map(img => `
-                        <img src="${img}" alt="${titulo}" class="modal_imagem">
-                    `).join('')}
-                </div>
+                        <img
+    src="${img}"
+    alt="${titulo}"
+    class="modal_imagem"
+    style="height: 100%; width: auto; object-fit: contain;">> `).join('')}
+</div>
                 <p>${projeto.detalhes}</p>
                 <div class="modal_botoes">
                     ${projeto.links.map(link => `
