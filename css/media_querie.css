@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (max-width: 768px),(max-width: 1140px) {
   
  nav {
     display:grid;
@@ -137,6 +137,15 @@
     font-size: 1.8em;
     margin-bottom: 2vh;
   }
+
+
+@media (max-width: 1162px){
+    ul li a{
+     font-size: 1em;
+    }
+}
+
+
 
 /* modal imagens */
 @media (min-width: 768px) {
