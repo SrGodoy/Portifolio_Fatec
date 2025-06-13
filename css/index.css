@@ -96,12 +96,12 @@ max-height: auto;
 
 
 
-    /* botão subir para cima da pagina */
+    /* botao subir para cima da pagina */
   .botao_inicio{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #000;
+    background-color: #0000;
     color: white;
     width: 40px;
     height: 40px;
@@ -163,6 +163,7 @@ max-height: auto;
   height: auto;
     width: 14vw;
     align-self: flex-end;
+    padding-left: 100px;
 }
 
   

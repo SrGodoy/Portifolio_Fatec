@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 };
 
- // botão ver mais ação modal
+ // botao ver mais acao modal
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const card = this.closest('.card_projeto');
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
     src="${img}"
     alt="${titulo}"
     class="modal_imagem"
-    style="height: 100%; width: auto; object-fit: contain;">> `).join('')}
+    style="height: 100%; width: auto; object-fit: contain;"> `).join('')}
 </div>
                 <p>${projeto.detalhes}</p>
                 <div class="modal_botoes">
