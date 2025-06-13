@@ -148,9 +148,14 @@
 
 
 
-/* modal imagens */
-@media (min-width: 768px) {
-    .modal_imagem {
-        max-width: 45%;
+/* modal  */
+@media (max-width: 683px) {
+    .card_projeto img {
+        max-width: 300px;
     }
+     .projeto-grid {
+        display: grid;
+        place-items: center;
+      
+     }
 }
