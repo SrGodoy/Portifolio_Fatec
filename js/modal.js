@@ -109,12 +109,12 @@ document.addEventListener('DOMContentLoaded', function() {
             "P. O objetivo foi demonstrar a integração entre sistemas através de Web Servic" +
             "es.",
     imagens: [
-        "img/microserviço_1.png", "img/microserviço_2.png", "img/microserviço_3.png", "img/microserviço_4.png"
+        "img/microserviço_1.png", "img/microserviço_2.png", "img/microserviço_3.png", "img/microserviço_4.PNG"
     ],
     links: [
         {
             texto: "Repositório",
-            url: "https://github.com/SrGodoy/Servi-o_Cliente_Javao",
+            url: "https://github.com/SrGodoy/Servi-o_Cliente_Java",
             classe: "github"
         }
     ]
