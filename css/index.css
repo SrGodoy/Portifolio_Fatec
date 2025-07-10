@@ -263,7 +263,7 @@ max-height: auto;
 
   /* habilidades */
   .habilidades {
-    scroll-margin-top: 5vh;
+   scroll-margin-top: 80px;
     background: #ecebeb;
     padding: 5vh;
     text-align: center;
@@ -326,6 +326,7 @@ max-height: auto;
     background: #323232;
     padding: 5vh;
     text-align: center;
+    scroll-margin-top: 80px;
     
   }
   .projeto h3, h1{
